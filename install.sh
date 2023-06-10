@@ -15,12 +15,12 @@ installTheme(){
     echo "Memasang tema...tunggu ya"
     cd /var/www/pterodactyl
     rm -r nightDy
-    git clone https://github.com/mufniDev/nightDy.git
+    git clone https://github.com/KilerBotz/nightDy.git
     cd nightDy
-    rm /var/www/pterodactyl/resources/scripts/mufniDev.css
+    rm /var/www/pterodactyl/resources/scripts/KilersBotz.css
     rm /var/www/pterodactyl/resources/scripts/index.tsx
     mv index.tsx /var/www/pterodactyl/resources/scripts/index.tsx
-    mv mufniDev.css /var/www/pterodactyl/resources/scripts/mufniDev.css
+    mv KilersBotz.css /var/www/pterodactyl/resources/scripts/KilersBotz.css
     cd /var/www/pterodactyl
 
     # Install dependencies
